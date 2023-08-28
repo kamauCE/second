@@ -1,0 +1,44 @@
+body{
+    background-color: gray;
+    background-image: url(./ky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height:100vh;
+}
+
+/* The container that has the items you want to style as rows is socials not container */
+.socials{
+    display: flex;
+    /*align-items: center;*/
+    gap: 2rem;
+    /* height: 300px; */
+    /*use padding instead to give space on the top and lower side */
+    padding: 1rem;
+    font-family: fantasy;
+    font-size: 15px;  
+}
+/*Good to to go now. find out why the row-gap style isn't working and make it work so as to get some space between your elements*/
+/*how about adding content to about*/
+/* Create a html file name about.html add some html into it and then link it to the footer button that you have */
+/* Remember to reference the location of your file correctly when linking an <a/> tag to a page, e.g ./about.html */
+/* Carry on the rest, if stuck use w3schools if you can't still find a solution ask me */
+/*okay,thanks*/
+footer{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: black;
+}
+.socials:hover{
+color: brown;
+}
+.copy{
+    color: gold;
+}
+.socials, .Help{
+    width: auto;
+    padding:auto;
+    float: left;
+}
